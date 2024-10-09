@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-size: large;
+
+    
+    
+
+    
+    
+    
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    
+}
+.box1{
+    background-color: #508D4E;
+    border-radius: 20px;
+    
+
+    
+}
+.head1{
+    background-color: #1A5319;
+    border-radius: 20px;
+}
+.box2{
+    background-color: #80AF81;
+    border-radius: 20px;
+    
+}
+.head2{
+    background-color: #1A5319;
+    border-radius: 20px;
+}
+.box3{
+    background-color: #508D4E;
+    border-radius: 20px;
+    
+}
+.head3{
+    background-color:#1A5319;
+    border-radius: 20px;
+}
+.box4{
+    background-color:#80AF81;
+    border-radius: 20px;
+}
+.head4{
+    background-color: #1A5319;
+    border-radius: 20px;
+}
+.box5{
+    background-color: #8FD14F;
+    border-radius: 20px;
+}
+.head5{
+   background-color:#1A5319;
+   border-radius: 20px;
+} 
+.box6{
+    background-color: #80AF81;
+    border-radius: 20px;
+} 
+.head6{
+    background-color: #1A5319;
+    border-radius: 20px;
+}
+.box7{
+    background-color: #508D4E;
+    border-radius: 20px;
+}
+.head7{
+    background-color: #1A5319;
+    border-radius: 20px;
+}
+.img{
+    border-radius: 20px;
+    
+}
+@media (max-width:800px){
+   .parent{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   } 
+}
+ 
